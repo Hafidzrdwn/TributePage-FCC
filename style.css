@@ -47,7 +47,7 @@ body {
 }
 
 #image {
-  width: 80%;
+  max-width: 80%;
   height: auto;
   margin: 0 auto 35px;
   border-radius: 10px;
