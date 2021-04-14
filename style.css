@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#main {
+  background-color: #ccc;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  align-items: center;
+}
+
+#title h1 {
+  font-weight: 600;
+  font-size: 6vw;
+  margin-bottom: 15px;
+}
+
+#title p {
+  font-size: 14px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#img-div {
+  width: 95%;
+  background-color: #eee;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+#image {
+  width: 80%;
+  height: auto;
+  margin: 0 auto 35px;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.534);
+  transition: 0.4s;
+}
+
+#image:hover {
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.671);
+}
+
+#tribute-info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#tribute-info h1 {
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  width: 70%;
+  margin: 30px auto;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #eee;
+  padding: 10px 100px;
+  background-color: #333;
+  letter-spacing: 3px;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#tribute-link:hover {
+  background-color: rgb(19, 19, 19);
+}
+
+.card-container {
+  max-width: 80%;
+  margin: 30px auto;
+}
+
+.card {
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 50px 30px;
+  background-color: #ccc;
+  box-shadow: 0 0 10px black;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px black;
+}
+
+.card > .description {
+  padding: 20px 40px;
+}
+
+.card > .description h4 {
+  color: rgba(2, 2, 2, 0.493);
+  margin: 7px 0 15px;
+}
+
+.card > .description p {
+  text-align: justify;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+#video-list {
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+footer {
+  background-color: #333;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #ccc;
+}
+
+footer a {
+  text-decoration: none;
+  color: #d01f44;
+}
+
+@media (min-width: 1000px) {
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  #title h1 {
+    font-size: 4vw;
+  }
+}
